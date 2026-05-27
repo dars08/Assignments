@@ -43,8 +43,10 @@ let year:number = 2023
 console.log(`Current year: ${year}`)
 
 //11.Number of followers on a social media platform: 1,000,000
-const followers: number = 1000000;
-console.log(`Number of followers on a social media platform: ${followers.toLocaleString('en-US')}`);
+const followers: string = "1,000,000"; 
+//console.log(`Number of followers on a social media platform: ${followers.toLocaleString('en-US')}`);
+console.log(`Number of followers on a social media platform: ${followers}`);
+
 
 //12.Rating of a movie: 7.5
 let rating:number = 7.5
